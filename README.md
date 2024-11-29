@@ -1,6 +1,6 @@
 # COVID-19 Patient Intubation Prediction
 
-This repository contains the code, report, and presentation for the project **COVID-19 Patient Intubation Prediction**. The project aims to predict the likelihood of COVID-19 patients requiring intubation using a variety of machine learning classification techniques, including logistic regression, k-nearest neighbors, and artificial neural network, all implemented from scratch.
+This repository contains the code the project **COVID-19 Patient Intubation Prediction**. The project aims to predict the likelihood of COVID-19 patients requiring intubation using a variety of machine learning classification techniques, including logistic regression, k-nearest neighbors, and artificial neural network, all implemented from scratch.
 
 ## Project Overview
 
