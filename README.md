@@ -5,12 +5,13 @@ This repository contains the code, report, and presentation for the project **CO
 ## Project Overview
 
 COVID-19 can lead to severe respiratory complications, necessitating intubation in critical cases. Early prediction of this need can aid in timely medical interventions, optimizing resource allocation and improving patient outcomes. This project leverages clinical data to develop a predictive model for intubation in COVID-19 patients.
+<p> <img src="https://github.com/user-attachments/assets/34c65fc0-8083-4107-8908-bef3da8752ad" width="1000"> </p> 
 
 ## Repository Contents
 
 - **[ENGR_518_Project_final.ipynb](ENGR_518_Project_final.ipynb)**: Jupyter Notebook containing the project code and analysis.
 
-## Methodology
+## Features
 
 The project followed these key steps:
 
@@ -45,3 +46,14 @@ To run the code in the Jupyter Notebook, you will need the following Python libr
 1. Clone this repository:
    ```bash
    git clone https://github.com/AminLari/COVID-19-Patient-Intubation-Prediction.git
+
+
+
+## 📞 Contact
+If you have any questions, feedback, or suggestions regarding this project, feel free to reach out:
+
+- **Name**: Mohammadamin Lari  
+- **Email**: [mohammadamin.lari@gmail.com](mailto:mohammadamin.lari@gmail.com)  
+- **GitHub**: [AminLari](https://github.com/aminlari)
+
+You are welcome to create issues or pull requests to improve the project. Contributions are highly appreciated! 
