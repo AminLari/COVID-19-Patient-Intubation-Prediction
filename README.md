@@ -11,6 +11,13 @@ COVID-19 can lead to severe respiratory complications, necessitating intubation 
 
 - **[ENGR_518_Project_final.ipynb](ENGR_518_Project_final.ipynb)**: Jupyter Notebook containing the project code and analysis.
 
+## Dataset
+
+The dataset used for this project was sourced from Kaggle: [COVID-19 Dataset](https://www.kaggle.com/datasets/meirnizri/covid19-dataset).
+
+- **Description**: The dataset contains clinical features and outcomes for COVID-19 patients, including whether they required intubation.
+- **Data Preprocessing**: Missing values were handled, and categorical features were encoded. Feature selection was performed to retain only the most relevant predictors.
+
 ## Features
 
 The project followed these key steps:
@@ -47,7 +54,9 @@ To run the code in the Jupyter Notebook, you will need the following Python libr
    ```bash
    git clone https://github.com/AminLari/COVID-19-Patient-Intubation-Prediction.git
 
-
+2. Install the required Python packages:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib seaborn
 
 ## 📞 Contact
 If you have any questions, feedback, or suggestions regarding this project, feel free to reach out:
