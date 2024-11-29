@@ -25,13 +25,14 @@ The dataset used for this project was sourced from Kaggle: [COVID-19 Dataset](ht
 The project followed these key steps:
 
 1. **Data Collection and Preprocessing**: 
-    - Clinical data of COVID-19 patients was sourced and cleaned for model training.
+Clinical data of COVID-19 patients was sourced and cleaned for model training.
   
 2. **Feature Engineering**: 
-    - Relevant features were extracted and engineered to improve model performance.
+Relevant features were extracted and engineered to improve model performance.
   
 3. **Model Development**: 
-    - Various machine learning models were explored and evaluated to predict intubation likelihood, including the following:
+Various machine learning models were explored and evaluated to predict intubation likelihood, including the following:
+    
     a) Logistic Regression
     <p> <img src="https://github.com/user-attachments/assets/84911a95-9056-4045-9f7c-e9bdb0b18956" width="1000"> </p> 
 
