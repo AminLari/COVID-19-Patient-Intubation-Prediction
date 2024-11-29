@@ -1,6 +1,6 @@
 # COVID-19 Patient Intubation Prediction
 
-This repository contains the code, report, and presentation for the project **COVID-19 Patient Intubation Prediction**, developed as part of the ENGR 518 course. The project aims to predict the likelihood of COVID-19 patients requiring intubation using machine learning techniques.
+This repository contains the code, report, and presentation for the project **COVID-19 Patient Intubation Prediction**. The project aims to predict the likelihood of COVID-19 patients requiring intubation using a variety of machine learning classification techniques, including logistic regression, k-nearest neighbors, and artificial neural network, all implemented from scratch.
 
 ## Project Overview
 
@@ -72,7 +72,17 @@ To run the code in the Jupyter Notebook, you will need the following Python libr
 ## Results
 
 The final model achieved promising results, indicating its potential to assist healthcare providers in predicting the need for patient intubation.
+### Testing Accuracy
 
+| Classification Algorithm                       | Accuracy (%) - Original Dataset | Accuracy (%) - Reduced Dataset with PCA |
+|------------------------------------------------|----------------------------------|-----------------------------------------|
+| Built-in Logistic Regression (Cross-Entropy)  | 97.004                           | 91.92                                   |
+| Logistic Regression with MSE                  | 92                               | 86.15                                   |
+| Logistic Regression with Binary Cross-Entropy | **96.85**                            | 91.61                                   |
+| Built-in KNN                                  | 96.08                            | 95.45                                   |
+| KNN                                           | 95.98                            | **92.63**                                   |
+| Built-in Neural Network                       | 96.63                            | 93.15                                   |
+| Fully Connected Neural Network                            | 96.63                            | 86.58                                   |
 
 ## 📞 Contact
 If you have any questions, feedback, or suggestions regarding this project, feel free to reach out:
