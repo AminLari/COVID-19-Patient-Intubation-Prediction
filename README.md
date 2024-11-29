@@ -58,6 +58,10 @@ To run the code in the Jupyter Notebook, you will need the following Python libr
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn
 
+3. Open the Jupyter Notebook and run the cells:
+   ```bash
+   jupyter notebook ENGR_518_Project_final.ipynb
+
 ## 📞 Contact
 If you have any questions, feedback, or suggestions regarding this project, feel free to reach out:
 
