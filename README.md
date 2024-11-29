@@ -16,6 +16,8 @@ COVID-19 can lead to severe respiratory complications, necessitating intubation 
 The dataset used for this project was sourced from Kaggle: [COVID-19 Dataset](https://www.kaggle.com/datasets/meirnizri/covid19-dataset).
 
 - **Description**: The dataset contains clinical features and outcomes for COVID-19 patients, including whether they required intubation.
+  <p> <img src="https://github.com/user-attachments/assets/167fca23-dce5-4e1f-b65f-bdb3b0d9acc3" width="1000"> </p> 
+
 - **Data Preprocessing**: Missing values were handled, and categorical features were encoded. Feature selection was performed to retain only the most relevant predictors.
 
 ## Features
@@ -29,14 +31,18 @@ The project followed these key steps:
     - Relevant features were extracted and engineered to improve model performance.
   
 3. **Model Development**: 
-    - Various machine learning models were explored and evaluated to predict intubation likelihood.
-  
-4. **Evaluation and Results**: 
+    - Various machine learning models were explored and evaluated to predict intubation likelihood, including the following:
+    a) Logistic Regression
+    <p> <img src="https://github.com/user-attachments/assets/84911a95-9056-4045-9f7c-e9bdb0b18956" width="1000"> </p> 
+
+    b) K-Nearest Neighbors (KNN)
+    <p> <img src="https://github.com/user-attachments/assets/20c65639-a7dd-466a-908e-2cd3ec340198" width="1000"> </p> 
+
+    c) Artificial Neural Network (ANN)
+    <p> <img src="https://github.com/user-attachments/assets/78958246-a214-49f1-a5f1-d8431f815a0f" width="1000"> </p> 
+
+5. **Evaluation and Results**: 
     - The models were assessed based on accuracy, precision, recall, and other performance metrics.
-
-## Results
-
-The final model achieved promising results, indicating its potential to assist healthcare providers in predicting the need for patient intubation. More details can be found in the [Project Report](Project_Report_final.pdf).
 
 ## Requirements
 
@@ -61,6 +67,11 @@ To run the code in the Jupyter Notebook, you will need the following Python libr
 3. Open the Jupyter Notebook and run the cells:
    ```bash
    jupyter notebook ENGR_518_Project_final.ipynb
+
+## Results
+
+The final model achieved promising results, indicating its potential to assist healthcare providers in predicting the need for patient intubation.
+
 
 ## 📞 Contact
 If you have any questions, feedback, or suggestions regarding this project, feel free to reach out:
